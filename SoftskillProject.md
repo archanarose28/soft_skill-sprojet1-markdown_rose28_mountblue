@@ -4,7 +4,19 @@ NoSQL data models allow related data to be nested within a single data structure
 
 A NoSQL database provides a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases.
 
-## **Why** **NoSQL**
+<details open>
+<summary> Table of Contents  </summary>
+
++ 1. **Why** **NoSQL**
++ 2. **NoSQL** **Features & Capabilities**
++ 3. **Types of NoSL Databases**
++ 4. **List of the Different NoSQL Databases**
++ 5.  **REFERENCES**
+
+</details>
+
+
+## 1. **Why** **NoSQL**
 * The pace of development with NoSQL databases can be much faster than with a SQL database
 * The structure of many different forms of data is more easily handled and evolved with a NoSQL database
 * The amount of data in many applications cannot be served affordably by a SQL database
@@ -12,7 +24,7 @@ A NoSQL database provides a mechanism for storage and retrieval of data that is 
 * New application paradigms can be more easily supported
 
 
-##  **NoSQL Features & Capabilities**
+##  2. **NoSQL Features & Capabilities**
 
 * Performance
 
@@ -31,7 +43,7 @@ A NoSQL database provides a mechanism for storage and retrieval of data that is 
 * Deployment Model Flexibility
 
 
-## **Types of NoSL Databases**
+## 3. **Types of NoSL Databases**
 
 
 
@@ -61,7 +73,7 @@ A NoSQL database provides a mechanism for storage and retrieval of data that is 
 
 4. **Graph databases**
 
-   A graph database focuses on the relationship between data elements. &nbsp;Each element is stored as a node (such as a person in a social media graph). &nbsp;  The connections between elements are called links or relationships.&nbsp; In a graph database, connections are first-class elements of the database, stored directly.&nbsp; In relational databases, links are implied, using data to express the relationships.
+   A graph database focuses on the relationship between data elements. &nbsp;Each element is stored as a node (such as a person in a social media graph). &nbsp;  The connections between elements are called links or relationships.&nbsp; In a graph database, &nbsp;connections are first-class elements of the database, stored directly.&nbsp; In relational databases, links are implied, using data to express the relationships.
 
    A graph database is optimized to capture and search the connections between data elements, overcoming the overhead associated with JOINing multiple tables in SQL.
 
@@ -71,11 +83,11 @@ A NoSQL database provides a mechanism for storage and retrieval of data that is 
 
 
 
-## **List of the Different NoSQL Databases**
+## 4. **List of the Different NoSQL Databases**
 
 1. **MongoDB**
 
-MongoDB is the most widely used document-based database.&nbsp; It stores the documents in JSON objects. &nbsp; According to the website stackshare.io, more than 3400 companies are using MongoDB in their tech stack.&nbsp; Uber, Google, eBay, Nokia, Coinbase are some of them.
+MongoDB is the most widely used document-based database.&nbsp; It stores the documents in JSON objects. &nbsp; According to the website stackshare.io, more than 3400 companies are using MongoDB in their tech stack.&nbsp; Uber, &nbsp;Google,&nbsp; eBay,&nbsp; Nokia,&nbsp; Coinbase are some of them.
 
 **Why MongoDB?**
 * In case you are planning to integrate hundreds of different data sources, &nbsp;the document-based model of MongoDB will be a great fit as it will provide a single unified view of the data
@@ -122,7 +134,7 @@ It is also an open-source highly scalable distributive database system.&nbsp; HB
 * If you want to easily store real-time messages for billions of people
 
 
-## **REFERENCES**
+## 5. **REFERENCES**
 
 
 * [Nesta CMS](http://nestacms.com/docs/creating-content/markdown-cheat-sheet )
